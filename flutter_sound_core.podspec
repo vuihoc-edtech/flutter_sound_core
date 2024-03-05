@@ -26,9 +26,9 @@ It has been extracted to be isolated from Flutter and can be used with other fra
   s.homepage         = 'https://github.com/canardoux/flutter_sound'
   s.license          = { :type => 'MPL2', :file => 'LICENSE' }
   s.author           = { 'larpoux' => 'larpoux@gmail.com' }
-  s.source           = { :git => 'https://github.com/canardoux/flutter_sound_core.git', :tag => '' + s.version.to_s }
+  s.source           = { :git => 'https://github.com/vuihoc-edtech/flutter_sound_core.git', :tag => '' + s.version.to_s }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ios/Classes/*'
   s.frameworks = 'AVFoundation', 'MediaPlayer'
